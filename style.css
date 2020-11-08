@@ -13,7 +13,7 @@ html {
   --header4: calc(2.4rem + 1vw);
   --text: calc(1.5rem + 1vw);
   --big: calc(2.4rem + 1vw);
-  --special-color: #906272;
+  --special-color: #b5934e;
   --background-color: #414141;
   --grey-text: #525252;
   scroll-behavior: smooth;
@@ -357,7 +357,7 @@ nav {
 footer {
   background-color: var(--background-color);
   padding: 3rem;
-  color: white;
+  color: black;
 }
 
 .foot {
