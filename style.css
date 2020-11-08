@@ -145,13 +145,14 @@ nav {
 }
 
 .hero-img {
-  flex: 1 1 40rem;
-  background: linear-gradient(#dad8dd, #dad1d4);
-  position: relative;
-  z-index: 1;
+  flex: 1 1 1 1rem;
+  
+  /* background: linear-gradient(#dad8dd, #dad1d4);
+  position: relative; */
+  /* z-index: 1; */
 }
 
-.hero-elena {
+.hero-Chris {
   height: 100%;
   width: 100%;
   object-fit: cover;
@@ -310,7 +311,7 @@ nav {
 }
 
 .contact-img {
-  flex: 1 1 40rem;
+  flex: 1 1 90rem;
 }
 
 .contact-form h2 {
@@ -327,7 +328,7 @@ nav {
   font-size: 2rem;
 }
 
-.elena-back {
+.chris-back {
   height: 100%;
   width: 100%;
   object-fit: cover;
