@@ -32,8 +32,8 @@ html {
 }
 
 @font-face {
-  font-family: "Vibes";
-  src: url(./fonts/GreatVibes-Regular.ttf);
+  font-family: "Cinzel";
+  src: url(./fonts/Cinzel.ttf);
 }
 
 body {
@@ -87,7 +87,7 @@ body {
 }
 
 h1 {
-  font-family: "Vibes", sans-serif;
+  font-family: "Cinzel", sans-serif;
 }
 
 /* main css */
@@ -236,7 +236,7 @@ nav {
 }
 .about-text h2 {
   padding: 5rem;
-  font-family: "vibes";
+  font-family: "Cinzel";
 }
 
 .about-image h5 {
@@ -366,7 +366,7 @@ footer {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  font-family: "vibes";
+  font-family: "Cinzel";
 }
 
 footer img {
