@@ -189,7 +189,7 @@ nav {
   }
 }
 
-@keyframes plant-enterence {
+/* @keyframes plant-enterence {
   from {
     transform: translateY(10%) rotateZ(-10deg) rotateX(-90deg);
   }
@@ -205,7 +205,7 @@ nav {
   to {
     transform: rotatez(0deg);
   }
-}
+} */
 
 .burger,
 .menu {
@@ -224,7 +224,7 @@ nav {
   flex: 2 1 40rem;
   justify-content: space-between;
   background: var(--background-color);
-  color: white;
+  color: rgb(19, 17, 17);
 }
 
 .about-text div {
@@ -249,6 +249,7 @@ nav {
   letter-spacing: 2rem;
   text-shadow: 10px 3px 16px black;
   font-size: calc(3rem + 1vw);
+  padding: 1rem;
 }
 
 .about-image {
