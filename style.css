@@ -284,7 +284,10 @@ nav {
   position: relative;
   display: grid;
   min-height: 100vh;
-  grid-template-columns: repeat(3,1fr);
+  /* grid-template-columns: repeat(3,1fr); */
+  grid-template-columns: masonry;
+  /* grid-template-rows: ; */
+  padding: 1rem;
 }
 
 gallery1 img{
@@ -323,6 +326,7 @@ gallery1 img{
   color: white;
   padding: 5rem 10rem;
   text-align: center;
+  z-index: 1;
 }
 /* ------------Contact---------- */
 
