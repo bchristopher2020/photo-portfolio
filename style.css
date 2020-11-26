@@ -269,8 +269,7 @@ nav {
   position: relative;
   display: grid;
   min-height: 100vh;
-  grid-template-columns: repeat(3, 1fr);
- 
+  grid-template-columns: repeat(4, 1fr);
   padding: 1rem;
 }
 
@@ -280,15 +279,16 @@ nav {
   object-fit: cover;
 }
 
-.gallery1 {
-  position: relative;
+/* .gallery1 {
+  position: realtive;
   display: grid;
+  grid-area: span;
+  grid-area: inherit;
   min-height: 100vh;
-  /* grid-template-columns: repeat(3,1fr); */
-  grid-template-columns: masonry;
-  /* grid-template-rows: ; */
+  /* grid-template-columns: repeat(4, 1fr); */
+  
   padding: 1rem;
-}
+} */
 
 gallery1 img{
   width: 100%;
