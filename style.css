@@ -126,11 +126,11 @@ nav {
 
 .hero-intro {
   flex: 2 1 40rem;
-  text-align: center;
+  /* text-align: center; */
 }
 
 .hero-intro p {
-  padding: 5rem 8rem;
+  padding: 2rem 3rem;
   color: var(--grey-text);
 }
 
@@ -146,6 +146,7 @@ nav {
 
 .hero-img {
   flex: 1 1 1 1rem;
+  border-radius: 50%;
 
   /* background: linear-gradient(#dad8dd, #dad1d4);
   position: relative; */
@@ -153,28 +154,11 @@ nav {
 }
 
 .hero-Chris {
-  height: 100%;
-  width: 100%;
+  height: Auto;
+  max-width: 100%;
   object-fit: cover;
   pointer-events: none;
-}
-
-.plant {
-  position: absolute;
-  bottom: 0;
-
-  left: -20%;
-  z-index: -1;
-  transform: translateY(00%) rotateZ(0deg) rotateX(-90deg);
-
-  animation: plant-enterence 1.5s ease-in-out 0.5s forwards,
-    plant-sahke 2.5s infinite ease alternate-reverse 2s;
-  transform-origin: bottom;
-  max-height: 80%;
-}
-
-.plant2 {
-  left: 40%;
+  border-radius: 5%;
 }
 
 /* ANIMATIONS */
@@ -240,7 +224,7 @@ nav {
   font-family: "Cinzel";
 }
 
-.about-image h5 {
+/* .about-image h5 {
   position: absolute;
   top: 20%;
   left: 50%;
@@ -250,17 +234,20 @@ nav {
   text-shadow: 10px 3px 16px black;
   font-size: calc(3rem + 1vw);
   padding: 1rem;
-}
+} */
 
 .about-image {
   flex: 2 1 40rem;
   position: relative;
+  
 }
 
 .about-image img {
-  height: 100%;
+  /* height: 100%;
   width: 100%;
-  object-fit: cover;
+  object-fit: cover; */
+  max-width: 100%;
+  max-height: auto%;
 }
 
 /* -------gallery------- */
@@ -279,6 +266,11 @@ nav {
   object-fit: cover;
 }
 
+div.gallery:hover{
+  border: 1px solid #777;
+
+}
+
 /* .gallery1 {
   position: realtive;
   display: grid;
@@ -287,10 +279,9 @@ nav {
   min-height: 100vh;
   /* grid-template-columns: repeat(4, 1fr); */
   
-  padding: 1rem;
-} */
 
-gallery1 img{
+
+.gallery1 img{
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -423,7 +414,7 @@ footer img {
   }
 
   .hero-intro {
-    padding: 5rem 3rem;
+    padding: 1rem 3rem;
   }
 
   /* Burger */
