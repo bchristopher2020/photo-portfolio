@@ -153,13 +153,7 @@ nav {
   /* z-index: 1; */
 }
 
-.hero-Chris {
-  height: Auto;
-  max-width: 100%;
-  object-fit: cover;
-  pointer-events: none;
-  border-radius: 5%;
-}
+
 
 /* ANIMATIONS */
 
@@ -286,7 +280,7 @@ div.gallery:hover{
   /* Gallery Modal stylings */
 
   #myImg {
-    border-radius: 5px;
+    border-radius: 15px;
     cursor: pointer;
     transition: 0.3s;
   }
@@ -406,7 +400,7 @@ div.gallery:hover{
   color: white;
   padding: 5rem 10rem;
   text-align: center;
-  z-index: 1;
+  z-index: 0;
 }
 /* ------------Contact---------- */
 
