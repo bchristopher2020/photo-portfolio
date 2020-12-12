@@ -33,7 +33,6 @@ var modalImg = document.getElementById("img01");
 var captionText = document.getElementById("caption");
 
 
-
 for(i=0;i< img.length;i++)
    {    
     img[i].onclick = function(){
