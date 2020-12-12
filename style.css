@@ -155,7 +155,9 @@ nav {
 }
 
 .hero-img {
-  flex: 1 1 1 1rem;
+  max-width: 50%;
+  /* flex: 1 1 1 1rem; */
+  max-height: 80%;
   
 
   /* background: linear-gradient(#dad8dd, #dad1d4);
