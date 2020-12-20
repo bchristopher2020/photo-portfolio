@@ -1,6 +1,6 @@
 /* Global styles */
 * {
-  padding: 0;
+  padding: 1%;
   margin: 0;
   box-sizing: border-box;
 }
@@ -121,8 +121,8 @@ nav {
   width: 95%;
   margin: 0 0 0 auto;
   min-height: 90vh;
-  display: flex;
-  flex-wrap: wrap;
+  /* display: flex;
+  flex-wrap: wrap; */
   overflow: hidden;
 }
 
@@ -229,7 +229,7 @@ nav {
 .about-image {
 
   /* flex: 2 1 40rem; */
-  position: relative;
+  /* position: relative; */
 }
 
 .about-image img {
