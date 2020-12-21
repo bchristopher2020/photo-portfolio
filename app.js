@@ -3,11 +3,6 @@ const burger = document.querySelector(".burger")
 const links = nav.querySelectorAll("a")
 
 
-
-
-
-
-
 burger.addEventListener("click", () => {
     nav.classList.toggle("nav-open")
     burger.classList.toggle("toggle")
@@ -27,7 +22,6 @@ links.forEach(link => {
 
 var modal = document.getElementById('myModal');
 var i;
-// Get the image and insert it inside the modal - use its "alt" text as a caption
 var img = document.getElementsByClassName('myImg');
 var modalImg = document.getElementById("img01");
 var captionText = document.getElementById("caption");
