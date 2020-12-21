@@ -2,6 +2,12 @@ const nav = document.querySelector(".nav-links");
 const burger = document.querySelector(".burger")
 const links = nav.querySelectorAll("a")
 
+function darkFunction() {
+    var element = document.body;
+    element.classList.toggle("dark-mode");
+ }
+
+
 
 burger.addEventListener("click", () => {
     nav.classList.toggle("nav-open")
