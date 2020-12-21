@@ -5,6 +5,30 @@
   box-sizing: border-box;
 }
 
+/* Parallax code */
+.parallax {
+  /* The image used */
+  background-image: url("./img/waterlight.jpg");
+
+  /* Set a specific height */
+  height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Remove parallax on smaller screens */
+@media only screen and (max-device-width: 1024px) {
+  .bgimg-1, .bgimg-2, .bgimg-3 {
+    background-attachment: scroll;
+  }
+}
+
+/* End of parallax styles */
+
 /* global sizes */
 html {
   font-size: 62.5%;
