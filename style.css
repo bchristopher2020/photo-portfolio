@@ -5,6 +5,8 @@
   box-sizing: border-box;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap');
+
 /* Parallax code */
 .parallax {
   /* The image used */
@@ -54,23 +56,15 @@ html {
 /* custom fonts */
 
 @font-face {
-  font-family: "Ruhl Medium";
-  src: url(./fonts/FrankRuhlLibre-Medium.ttf);
+  font-family: 'Crimson Text', serif;
+  src: url(https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap);
 }
 
-@font-face {
-  font-family: "Ruhl";
-  src: url(./fonts/FrankRuhlLibre-Regular.ttf);
-}
 
-@font-face {
-  font-family: "Cinzel";
-  src: url(./fonts/Cinzel.ttf);
-}
 
 body {
-  font-family: "poppins", sans-serif;
-  padding: 25px;
+  font-family: 'Crimson Text', serif;
+  /* padding: 25px; */
   background-color: white;
   color: black;
   font-size: 25px;
@@ -107,6 +101,7 @@ body {
   background-color: #ccc;
   -webkit-transition: .4s;
   transition: .4s;
+  padding-right: 10px;
 }
 
 .slider:before {
@@ -138,10 +133,12 @@ input:checked + .slider:before {
 /* Rounded sliders */
 .slider.round {
   border-radius: 34px;
+ 
 }
 
 .slider.round:before {
   border-radius: 50%;
+  
 }
 
 /* Dark mode styles end */
@@ -190,12 +187,12 @@ a {
 }
 
 body {
-  font-family: "Ruhl", sans-serif;
+  font-family: 'Crimson Text', serif;
   animation: opening 1s ease-in-out;
 }
 
 h1 {
-  font-family: "Cinzel", sans-serif;
+  font-family: 'Crimson Text', serif;
 }
 
 /* main css */
@@ -310,16 +307,17 @@ nav {
 }
 
 .about-text div {
-  padding: 3rem 7rem;
+  /* padding: 3rem 7rem; */
+  padding: 1rem 4rem;
 }
 
 .about-text h3 {
   padding: 2rem 0rem;
-  font-family: "Ruhl Medium";
+  font-family: 'Crimson Text', serif;
 }
 .about-text h2 {
   padding: 5rem;
-  font-family: "Cinzel";
+  font-family: 'Crimson Text', serif;
 }
 
 /* .about-image h5 {
@@ -334,11 +332,6 @@ nav {
   padding: 1rem;
 } */
 
-.about-image {
-
-  /* flex: 2 1 40rem; */
-  /* position: relative; */
-}
 
 .about-image img {
   object-fit: cover; 
@@ -576,7 +569,7 @@ footer {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  font-family: "Cinzel";
+  font-family: 'Crimson Text', serif;
 }
 
 footer img {
