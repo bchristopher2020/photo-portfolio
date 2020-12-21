@@ -238,7 +238,7 @@ nav {
 }
 
 .hero-intro p {
-  padding: 2rem 3rem;
+  /* padding: 2rem 3rem; */
   /* color: var(--grey-text); */
   /* color: black; */
 }
@@ -596,7 +596,9 @@ footer img {
   }
 
   .hero-intro {
-    padding: 1rem 3rem;
+    /* padding: 1rem 3rem; */
+    /* padding: 0 0 0 0; */
+    padding: 0% 0%;
   }
 
   /* Burger */
@@ -704,12 +706,12 @@ footer img {
   }
 }
 
-/* @media screen and (min-width: 1700px) {
+@media screen and (min-width: 1700px) {
   html {
     --header1: 3rem;
     --header2: 6.5rem;
     --header3: 3.5rem;
     --header4: 2.5rem;
     --big: 6rem;
-  } */
+  }
 }
